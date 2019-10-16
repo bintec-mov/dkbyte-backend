@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Data
 @Entity
 @Table(name = "pasajero_vehiculo")
-public class PasajeroVehiculoEntity implements Serializable {
+public class PasajeroViajeEntity implements Serializable {
 
     @Id
     @Column(name = "id")
@@ -19,15 +19,15 @@ public class PasajeroVehiculoEntity implements Serializable {
     private PasajeroEntity pasajero;
 
     @ManyToOne
-    @JoinColumn(name = "id_vehiculo")
-    private VehiculoEntity vehiculo;
+    @JoinColumn(name = "id_viaje")
+    private ViajeEntity viaje;
 
-    public VehiculoEntity getVehiculo(){
-        if(vehiculo==null){
-            vehiculo = new VehiculoEntity();
+    public ViajeEntity getViaje(){
+        if(viaje==null){
+            viaje = new ViajeEntity();
 
         }
-        return vehiculo;
+        return viaje;
     }
     public PasajeroEntity getPasajero(){
         if (pasajero==null){
