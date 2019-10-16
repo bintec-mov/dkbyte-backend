@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="spring-core-5.2.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../spring-core-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../spring-jcl-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-aop-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-beans-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-boot-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-context-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-core-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-expression-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/spring-jcl-5.0.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (2)/lombok-1.16.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
