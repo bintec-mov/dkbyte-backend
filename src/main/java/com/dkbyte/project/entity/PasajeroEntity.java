@@ -2,7 +2,6 @@ package com.dkbyte.project.entity;
 
 import lombok.Data;
 import org.springframework.security.core.parameters.P;
-
 import javax.persistence.*;
 
 @Data
