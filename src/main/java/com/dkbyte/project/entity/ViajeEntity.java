@@ -1,10 +1,11 @@
 package com.dkbyte.project.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name= "Viaje")
-public class ViajeEntity {
+public class ViajeEntity implements Serializable {
     @Id
     @GeneratedValue
     @Column(name = "id")
