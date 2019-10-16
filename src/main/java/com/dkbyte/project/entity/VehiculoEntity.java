@@ -18,4 +18,15 @@ public class VehiculoEntity {
     @Column(name = "placa")
     private String placa;
 
+    @ManyToOne
+    @JoinColumn(name="id_Conductor")
+    private ConductorEntity conductor;
+
+    public ConductorEntity getVehiculo(){
+        if( conductor== null){
+            conductor = new ConductorEntity();
+        }
+        return conductor;
+    }
+
 }
