@@ -3,11 +3,12 @@ package com.dkbyte.project.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Data
 @Entity
 @Table(name = "conductor")
-public class ConductorEntity {
+public class ConductorEntity implements Serializable {
     @Id
     @Column(name="conductor")
     private long id;

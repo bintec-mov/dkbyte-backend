@@ -3,11 +3,12 @@ package com.dkbyte.project.entity;
 import lombok.Data;
 import org.springframework.security.core.parameters.P;
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Data
 @Entity
 @Table(name = "pasajero")
-public class PasajeroEntity {
+public class PasajeroEntity implements Serializable {
     @Id
     @GeneratedValue
     @Column(name = "id")

@@ -2,11 +2,12 @@ package com.dkbyte.project.entity;
 
 import lombok.Data;
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Data
 @Entity
 @Table(name = "vehiculo")
-public class VehiculoEntity {
+public class VehiculoEntity implements Serializable {
     @Id
     @GeneratedValue
     @Column(name="id")
