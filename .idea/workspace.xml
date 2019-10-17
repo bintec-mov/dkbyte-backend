@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="" />
+    <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,7 @@
       <workItem from="1571234477217" duration="1107000" />
       <workItem from="1571249736927" duration="650000" />
       <workItem from="1571251063641" duration="8310000" />
+      <workItem from="1571266476181" duration="1619000" />
     </task>
     <servers />
   </component>

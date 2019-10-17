@@ -1,16 +1,16 @@
 package com.dkbyte.project.model;
 
-public class PasajeroVehiculoModel {
+public class PasajeroViajeModel {
 
     private PasajeroModel pasajero;
-    private VehiculoModel vehiculo;
+    private ViajeModel viaje;
 
-    public VehiculoModel getVehiculo(){
-        if(vehiculo==null){
-            vehiculo = new VehiculoModel();
+    public ViajeModel getViaje(){
+        if(viaje==null){
+            viaje = new ViajeModel();
 
         }
-        return vehiculo;
+        return viaje;
     }
     public PasajeroModel getPasajero(){
         if (pasajero==null){
