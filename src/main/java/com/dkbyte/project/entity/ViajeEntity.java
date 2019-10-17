@@ -1,8 +1,10 @@
 package com.dkbyte.project.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.io.Serializable;
-
+@Data
 @Entity
 @Table(name= "Viaje")
 public class ViajeEntity implements Serializable {
@@ -23,4 +25,6 @@ public class ViajeEntity implements Serializable {
     @Column (name = "hora_salida")
     private String horasalida;
 
+    @Column(name= "cupo")
+    private Integer cupo;
 }
