@@ -11,6 +11,7 @@ import java.io.Serializable;
 public class PasajeroViajeEntity implements Serializable {
 
     @Id
+    @GeneratedValue
     @Column(name = "id")
     private  long id;
 
