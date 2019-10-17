@@ -27,19 +27,19 @@ public class PersonaController {
 
     }
 
-    @GetMapping ("/personas/{id}")
+    @GetMapping ("/persona/{id}")
     public PersonaEntity findById (@PathVariable Long id){
         return  personaService.findById(id);
     }
 
-    @PutMapping ("/personas/{id}")
+    @PutMapping ("/persona/{id}")
     public void update (@RequestBody PersonaEntity personaEntity, @PathVariable Long id){
 
         personaEntity.setId(id);
         personaService.update(personaEntity);
     }
 
-    @DeleteMapping ("/personas/{id}")
+    @DeleteMapping ("/persona/{id}")
     public void delete (@PathVariable Long id){
         personaService.deleteById(id);
     }
