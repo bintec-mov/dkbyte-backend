@@ -5,7 +5,7 @@ import com.dkbyte.project.entity.ConductorEntity;
 import java.util.List;
 
 public interface ConductorService {
-    List<ConductorService> findAll();
+    List<ConductorEntity> findAll();
 
     void insert(ConductorEntity conductorEntity);
 

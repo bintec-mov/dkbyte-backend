@@ -15,7 +15,7 @@ public class ConductorServiceImpl implements ConductorService {
     private ConductorRepository conductorRepository;
 
     @Override
-    public List<ConductorService> findAll() {
+    public List<ConductorEntity> findAll() {
         return conductorRepository.findAll();
     }
 
