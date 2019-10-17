@@ -16,7 +16,7 @@ public class VehiculoServiceImpl implements VehiculoService {
 
     @Override
     public List<VehiculoEntity> findAll() {
-        vehiculoRepository.findAll();
+        return vehiculoRepository.findAll();
     }
 
     @Override
@@ -26,16 +26,16 @@ public class VehiculoServiceImpl implements VehiculoService {
 
     @Override
     public VehiculoEntity findById(Long id) {
-        return null;
+        return vehiculoRepository.findById(id).orElse(null);
     }
 
     @Override
     public void update(VehiculoEntity vehiculo) {
-
+        vehiculoRepository.save(vehiculo);
     }
 
     @Override
     public void deleteById(Long id) {
-
+        vehiculoRepository.deleteById(id);
     }
 }
