@@ -35,7 +35,7 @@ public class VehiculoController {
         vehiculoService.update(vehiculo);
     }
 
-    @DeleteMapping("/{id}/vehiculo")
+    @DeleteMapping("/vehiculo/{id}")
     public void delete(@PathVariable Long id){
         vehiculoService.deleteById(id);
     }
