@@ -1,6 +1,7 @@
 package com.dkbyte.project.controller;
 
 import com.dkbyte.project.entity.PasajeroEntity;
+import com.dkbyte.project.entity.ViajeEntity;
 import com.dkbyte.project.service.PasajeroService;
 import com.dkbyte.project.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +34,11 @@ public class PasajeroController {
 
     @PutMapping("{id}/persona")
     public void update(@RequestBody PasajeroEntity pasajero, @PathVariable Long id){
-        
+        pasajero.setId(id);
+    }
+
+    @DeleteMapping("/{id}/persona")
+    public void delete(@PathVariable Long id){
+        pasajeroService.deleteById(id);
     }
 }
