@@ -1,7 +1,6 @@
 package com.dkbyte.project.controller;
 
 import com.dkbyte.project.entity.PasajeroViajeEntity;
-import com.dkbyte.project.entity.PersonaEntity;
 import com.dkbyte.project.service.PasajeroViajeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +14,7 @@ public class PasajeroViajeController {
     @Autowired
     private PasajeroViajeService  pasajeroViajeService;
 
-    @GetMapping("/pasajerosViaje")
+    @GetMapping("/pasajeroViaje")
     public List<PasajeroViajeEntity> findAll(){
         return pasajeroViajeService.findAll();
     }
