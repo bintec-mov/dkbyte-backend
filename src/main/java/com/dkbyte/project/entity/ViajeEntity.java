@@ -23,4 +23,7 @@ public class ViajeEntity implements Serializable {
     @Column (name = "hora_salida")
     private String horasalida;
 
+    @Column (name = "cupos")
+    private  int numeroCupos;
+
 }
