@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroViajeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/VehiculoController.java" afterDir="false" />
+    <list default="true" id="07b28855-0a28-4886-a761-6f2886892b6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spring_aop_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spring_core_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PersonaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/VehiculoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/VehiculoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/ViajeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/ViajeEntity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,43 +25,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="1SHxkCJOzmPqbDPNqliwnu9IZeG" />
+  <component name="ProjectId" id="1SLD8RwHeE7RM3aTHuxjFhzUP8M" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jar_files (3)/spring-web-5.2.0.RELEASE.jar!/" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,22 +55,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="EcomovApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dkbyte.project.EcomovApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="" />
-      <created>1571234464176</created>
+      <changelist id="07b28855-0a28-4886-a761-6f2886892b6c" name="Default Changelist" comment="" />
+      <created>1571333823010</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571234464176</updated>
-      <workItem from="1571234477217" duration="1107000" />
-      <workItem from="1571249736927" duration="650000" />
-      <workItem from="1571251063641" duration="8310000" />
-      <workItem from="1571266476181" duration="1640000" />
-      <workItem from="1571317664735" duration="645000" />
-      <workItem from="1571319278311" duration="10381000" />
+      <updated>1571333823010</updated>
+      <workItem from="1571333827143" duration="972000" />
+      <workItem from="1571334897448" duration="433000" />
     </task>
     <servers />
   </component>

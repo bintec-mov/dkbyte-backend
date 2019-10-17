@@ -2,6 +2,7 @@ package com.dkbyte.project.controller;
 
 
 import com.dkbyte.project.entity.PersonaEntity;
+import com.dkbyte.project.model.PersonaModel;
 import com.dkbyte.project.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +14,8 @@ import java.util.List;
 public class PersonaController {
     @Autowired
     private PersonaService personaService;
+
+
 
     @GetMapping("/persona")
     public List<PersonaEntity> findAll(){
@@ -31,6 +34,7 @@ public class PersonaController {
 
     @PutMapping ("/personas/{id}")
     public void update (@RequestBody PersonaEntity personaEntity, @PathVariable Long id){
+
         personaEntity.setId(id);
         personaService.update(personaEntity);
     }
