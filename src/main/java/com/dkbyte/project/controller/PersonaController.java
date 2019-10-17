@@ -24,18 +24,18 @@ public class PersonaController {
         personaService.insert(personaEntity);
     }
 
-    @GetMapping ("/{id}/personas")
+    @GetMapping ("/personas/{id}")
     public PersonaEntity findById (@PathVariable Long id){
         return  personaService.findById(id);
     }
 
-    @PutMapping ("/{id}/personas")
+    @PutMapping ("/personas/{id}")
     public void update (@RequestBody PersonaEntity personaEntity, @PathVariable Long id){
         personaEntity.setId(id);
         personaService.update(personaEntity);
     }
 
-    @DeleteMapping ("/{id}/personas")
+    @DeleteMapping ("/personas/{id}")
     public void delete (@PathVariable Long id){
         personaService.deleteById(id);
     }

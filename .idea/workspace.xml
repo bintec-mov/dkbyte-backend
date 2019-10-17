@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/PasajeroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/PasajeroServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroViajeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/VehiculoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/VehiculoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/VehiculoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PasajeroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/controller/PersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/VehiculoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/VehiculoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/ViajeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/ViajeEntity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +84,7 @@
       <workItem from="1571251063641" duration="8310000" />
       <workItem from="1571266476181" duration="1640000" />
       <workItem from="1571317664735" duration="645000" />
-      <workItem from="1571319278311" duration="3478000" />
+      <workItem from="1571319278311" duration="10381000" />
     </task>
     <servers />
   </component>
