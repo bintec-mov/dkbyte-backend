@@ -22,7 +22,7 @@ public class PersonaController {
 
     @PostMapping ("/persona")
     public  void insert(@RequestBody PersonaEntity personaEntity){
-
+        personaService.insert(personaEntity);
     }
 
     @GetMapping ("/persona/{id}")

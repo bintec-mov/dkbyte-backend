@@ -10,6 +10,7 @@ import java.io.Serializable;
 @Table(name = "conductor")
 public class ConductorEntity implements Serializable {
     @Id
+    @GeneratedValue
     @Column(name="conductor")
     private long id;
 
