@@ -22,15 +22,15 @@ public class Swagger {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("co.com.k4soft.apipersona.controller"))
+                        .basePackage("com.dkbyte.project.controller"))
                 .paths(PathSelectors.regex("/.*"))
                 .build().apiInfo(apiEndPointsInfo());
     }
 
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("API MOVIL PERSONA")
-                .description("Servicios de información  de personas")
-                .contact(new Contact("DISEÑO WEB", "www.k4soft.com", "diepineda@gmail.com"))
+        return new ApiInfoBuilder().title("DK-Movil")
+                .description("red social")
+                .contact(new Contact("sistemas", "null", "dkbyte-admin@dkbyte.co"))
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
                 .version("1.0.0")
