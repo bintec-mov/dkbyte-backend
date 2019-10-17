@@ -2,6 +2,7 @@ package com.dkbyte.project.controller;
 
 
 import com.dkbyte.project.entity.PersonaEntity;
+import com.dkbyte.project.model.PersonaModel;
 import com.dkbyte.project.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +22,7 @@ public class PersonaController {
 
     @PostMapping ("/persona")
     public  void insert(@RequestBody PersonaEntity personaEntity){
-        personaService.insert(personaEntity);
+
     }
 
     @GetMapping ("/personas/{id}")

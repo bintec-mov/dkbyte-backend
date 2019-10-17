@@ -24,6 +24,8 @@ public class ViajeController {
     @PostMapping ("/viaje")
     public void insert (@RequestBody ViajeEntity viajeEntity){
         viajeService.insert(viajeEntity);
+
+
     }
 
     @GetMapping ("/viaje/{id}")

@@ -36,19 +36,4 @@ public class PasajeroViajeEntity implements Serializable {
         return pasajero;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public void setPasajero(PasajeroEntity pasajero) {
-        this.pasajero = pasajero;
-    }
-
-    public void setViaje(ViajeEntity viaje) {
-        this.viaje = viaje;
-    }
 }

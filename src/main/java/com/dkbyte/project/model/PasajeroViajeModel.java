@@ -1,5 +1,8 @@
 package com.dkbyte.project.model;
 
+import lombok.Data;
+
+@Data
 public class PasajeroViajeModel {
 
     private PasajeroModel pasajero;
