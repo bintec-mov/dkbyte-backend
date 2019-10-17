@@ -16,7 +16,7 @@ public class ViajeServiceImpl implements ViajeService {
 
     @Override
     public List<ViajeEntity> findAll() {
-        return null;
+        return viajeRepository.findAll();
     }
 
     @Override
