@@ -16,26 +16,26 @@ public class ConductorServiceImpl implements ConductorService {
 
     @Override
     public List<ConductorService> findAll() {
-        return null;
+        return conductorRepository.findAll();
     }
 
     @Override
     public void insert(ConductorEntity conductorEntity) {
-
+        conductorRepository.save(conductorEntity);
     }
 
     @Override
     public ConductorEntity findById(Long id) {
-        return null;
+        return conductorRepository.findById(id).orElse(null);
     }
 
     @Override
     public void update(ConductorEntity conductorEntity) {
-
+        conductorRepository.save(conductorEntity);
     }
 
     @Override
     public void deleteById(Long id) {
-
+        conductorRepository.deleteById(id);
     }
 }
