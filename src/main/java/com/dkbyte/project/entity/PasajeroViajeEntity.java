@@ -35,9 +35,4 @@ public class PasajeroViajeEntity implements Serializable {
         }
         return pasajero;
     }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 1db183e1761a95c5f95dcfba5d7e6128bdfcfd34
 }

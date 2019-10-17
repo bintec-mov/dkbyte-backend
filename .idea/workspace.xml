@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="07b28855-0a28-4886-a761-6f2886892b6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PersonaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/model/PersonaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/model/PersonaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/entity/PasajeroViajeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dkbyte/project/controller/PersonaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dkbyte/project/controller/PersonaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dkbyte/project/entity/PasajeroEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dkbyte/project/entity/PasajeroEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dkbyte/project/entity/PersonaEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dkbyte/project/entity/PersonaEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dkbyte/project/model/PersonaModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dkbyte/project/model/PersonaModel.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +32,10 @@
   </component>
   <component name="ProjectId" id="1SLD8RwHeE7RM3aTHuxjFhzUP8M" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -63,7 +75,7 @@
       <updated>1571333823010</updated>
       <workItem from="1571333827143" duration="972000" />
       <workItem from="1571334897448" duration="433000" />
-      <workItem from="1571335371752" duration="2773000" />
+      <workItem from="1571335371752" duration="4390000" />
     </task>
     <servers />
   </component>
