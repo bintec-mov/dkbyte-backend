@@ -25,18 +25,18 @@ public class ConductorController {
         conductorService.insert(conductorEntity);
     }
 
-    @GetMapping ("/{id}/coductor")
+    @GetMapping ("/coductor/{id}")
     public ConductorEntity findById (@PathVariable Long id){
         return  conductorService.findById(id);
     }
 
-    @PutMapping ("/{id}/conductor")
+    @PutMapping ("/conductor/{id}")
     public void update (@RequestBody ConductorEntity conductorEntity, @PathVariable Long id){
         conductorEntity.setId(id);
         conductorService.update(conductorEntity);
     }
 
-    @DeleteMapping ("/{id}/conductor")
+    @DeleteMapping ("/conductor/{id}")
     public void delete (@PathVariable Long id){
         conductorService.deleteById(id);
     }

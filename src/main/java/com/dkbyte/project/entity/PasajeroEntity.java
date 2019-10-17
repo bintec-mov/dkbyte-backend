@@ -25,5 +25,11 @@ public class PasajeroEntity implements Serializable {
         return persona;
     }
 
+<<<<<<< HEAD
 
+=======
+    public void setPersona(PersonaEntity persona) {
+        this.persona = persona;
+    }
+>>>>>>> 1db183e1761a95c5f95dcfba5d7e6128bdfcfd34
 }
