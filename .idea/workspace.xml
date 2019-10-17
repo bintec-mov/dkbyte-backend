@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +75,7 @@
       <workItem from="1571251063641" duration="8310000" />
       <workItem from="1571266476181" duration="1640000" />
       <workItem from="1571317664735" duration="645000" />
+      <workItem from="1571319278311" duration="238000" />
     </task>
     <servers />
   </component>
