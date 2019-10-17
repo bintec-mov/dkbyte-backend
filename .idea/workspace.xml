@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/PasajeroViajeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/PasajeroViajeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/repository/PasajeroViajeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/ConductorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/ConductorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/ConductorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkbyte/project/service/impl/ConductorServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a4ada24-c281-43a5-b951-a703957022c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <workItem from="1571251063641" duration="8310000" />
       <workItem from="1571266476181" duration="1640000" />
       <workItem from="1571317664735" duration="645000" />
-      <workItem from="1571319278311" duration="3953000" />
+      <workItem from="1571319278311" duration="4438000" />
     </task>
     <servers />
   </component>
